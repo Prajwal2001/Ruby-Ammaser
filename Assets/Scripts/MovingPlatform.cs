@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class MovingPlatform : MonoBehaviour
 {
-    float dirY, movespeed = 3f;
+    float dirY, movespeed = 5f;
     bool moveUp = true;
     void FixedUpdate()
     {
-        if (transform.position.y > 3)
+        if (transform.position.y > 4)
                 moveUp = false;
-        if (transform.position.y < -4)
+        if (transform.position.y < -3)
                 moveUp = true;
         if (moveUp)
             transform.position = new Vector2(transform.position.x, transform.position.y + movespeed * Time.deltaTime);
