@@ -22,7 +22,7 @@ public class animControl : MonoBehaviour
         if(Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
         {
             transform.Translate(Vector2.left * (Time.deltaTime * speed));
-            anim.SetBool("isWalking", true);
+            anim.SetBool("isWalking", false);
             sr.flipX = true;
         }
         if(Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
