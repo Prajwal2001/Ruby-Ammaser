@@ -4,15 +4,20 @@ using UnityEngine;
 
 public class CharacterAnim : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private Animator anim;
+
     void Start()
     {
-        
+        anim = GetComponent<Animator>;
     }
 
-    // Update is called once per frame
-    void Update()
+    void update()
     {
-        
+        if(Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(Keycode.RightArrow))
+        {
+            anim.SetBool("isWalking", true);
+            else
+                anim.SetBool("isWalking", false);
+        }
     }
 }
