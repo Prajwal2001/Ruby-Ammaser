@@ -35,4 +35,12 @@ public class animControl : MonoBehaviour
         else
             anim.SetBool("isWalking", false);
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.CompareTag("CorrectRuby"))
+        {
+            Destroy(other.gameObject);
+        }
+    }
 }

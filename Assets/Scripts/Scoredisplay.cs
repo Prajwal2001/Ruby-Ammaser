@@ -16,9 +16,9 @@ public class Scoredisplay : MonoBehaviour
             instance = this;
         }
     }
-    public void ChangeScore(int rubyvalue)
+    public void ChangeScore(int rubyval)
     {
-        score = rubyvalue;
+        score += rubyval;
         text.text = "X" + score.ToString();
     }
 }
