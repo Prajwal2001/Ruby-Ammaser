@@ -315,7 +315,7 @@ GameObject:
   - component: {fileID: 351797610}
   m_Layer: 0
   m_Name: movingplatformbig
-  m_TagString: Untagged
+  m_TagString: forJumping
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -423,7 +423,7 @@ GameObject:
   - component: {fileID: 411254321}
   m_Layer: 0
   m_Name: movingplatformsmall (2)
-  m_TagString: Untagged
+  m_TagString: forJumping
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -531,7 +531,7 @@ GameObject:
   - component: {fileID: 462384510}
   m_Layer: 0
   m_Name: movingplatformsmall (1)
-  m_TagString: Untagged
+  m_TagString: forJumping
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -737,7 +737,7 @@ GameObject:
   - component: {fileID: 730101399}
   m_Layer: 0
   m_Name: movingplatformsmall (3)
-  m_TagString: Untagged
+  m_TagString: forJumping
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1554,7 +1554,7 @@ GameObject:
   - component: {fileID: 1217826756}
   m_Layer: 0
   m_Name: movingplatformsmall
-  m_TagString: Untagged
+  m_TagString: forJumping
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
