@@ -8,9 +8,9 @@ public class MovingPlatform : MonoBehaviour
     bool moveUp = true;
     void FixedUpdate()
     {
-        if (transform.position.y > 3y)
+        if (transform.position.y > 3)
                 moveUp = false;
-        if (transform.position.y < -4y)
+        if (transform.position.y < -4)
                 moveUp = true;
         if (moveUp)
             transform.position = new Vector2(transform.position.x, transform.position.y + movespeed * Time.deltaTime);
