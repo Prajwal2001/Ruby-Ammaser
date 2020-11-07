@@ -4,18 +4,34 @@ using UnityEngine;
 
 public class animControl : MonoBehaviour
 {
-    // Start is called before the first frame update
+    GameObject player;
+    Rigidbody2D rb;
+    SpriteRenderer sr;
+
+    public float speed = 5f;
     public Animator anim;
     void Start()
     {
         anim = GetComponent<Animator>();
+        sr = this.GetComponent<SpriteRenderer>();
+        rb = this.GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow))
-        { anim.SetBool("isWalking", true); }
+        if(Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
+        {
+            transform.Translate(Vector2.left * (Time.deltaTime * speed));
+            anim.SetBool("isWalking", true);
+            sr.flipX = true;
+        }
+        if(Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
+        {
+            transform.Translate(Vector2.right * (Time.deltaTime * speed));
+            anim.SetBool("isWalking", true);
+            sr.flipX = false;
+        }
+
         else
             anim.SetBool("isWalking", false);
     }
