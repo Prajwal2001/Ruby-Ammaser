@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/won scene.unity
     guid: d1496e8c430b8ad4cae17ba8a115532c
+  - enabled: 1
+    path: Assets/Scenes/HelpMenu.unity
+    guid: 2939fab405db43a449036325bb15bb1e
+  - enabled: 1
+    path: Assets/Scenes/HelpMenu2.unity
+    guid: 70cce45a2d802a7409c7967b416aa9f2
   m_configObjects: {}

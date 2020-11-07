@@ -1,18 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Security.AccessControl;
 using UnityEngine;
 
 public class camfollow : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public Transform target;
+    public Vector3 offset;
+
+    private void Update()
     {
-        
+        transform.position = target.position + offset;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
