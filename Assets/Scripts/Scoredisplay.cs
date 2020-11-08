@@ -6,6 +6,7 @@ using TMPro;
 
 public class Scoredisplay : MonoBehaviour
 {
+    public int fscore;
     public static Scoredisplay instance;
     public TextMeshProUGUI text;
     int score;
@@ -19,6 +20,7 @@ public class Scoredisplay : MonoBehaviour
     public void ChangeScore(int rubyval)
     {
         score += rubyval;
+        fscore = score;
         text.text = "X" + score.ToString();
     }
 }
