@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MovingPlatform : MonoBehaviour
 {
-    float dirY, movespeed = 5f;
+    float dirY, movespeed = 3.5f;
     bool moveUp = true;
     void FixedUpdate()
     {
