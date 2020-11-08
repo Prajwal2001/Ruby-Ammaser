@@ -564,15 +564,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "ABOUT\nOBJECTIVE: The player has to collect a certain number of gems to
-    go to the next level. If he completes the next level too, he wins the game. \nNot
-    all gems are helpful, if the player collects the defective gems(which looks exactly
-    same as real gems) then he might lose one real gem.You need to have 7 gems at
-    the end of first level to qualify to next level.\nThere will be a total of 10
-    gems in the first level, out of which two are defective gems. And in the second
-    level, player has to collect 14 gems out of 20. And there will be 5 defective
-    gems.\nPlayer has to jump on the right platforms as there are iron platforms
-    ,which looks same as normal platform, which will reduce the health of the player.\nOvercome
-    the enemies and reach the final door to win."
+    go to the next level. If he completes the next level too, he wins the game. \nYou
+    need to have atleast 7 gems at the end of first level to qualify to next level.\nThere
+    will be a total of 10 gems in the first level and 20 in the second level, player
+    has to collect 15 gems out of 20. \nPlayer has to jump on the moving platforms 
+    and overcome the enemies and reach the final door to win."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -599,8 +595,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

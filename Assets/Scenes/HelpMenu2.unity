@@ -177,9 +177,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "ABOUT\n\nCONTROLS: \nA or Left Arrow for moving left.\nD or Right Arrow
-    for moving right.\nSpace Bar for Jump.\n\nHEALTH BAR INFO:\nCactus: -20\nIron
-    Platform: -20\nSpider: -40\nGhost: -100 (You lost)"
+  m_text: "ABOUT\n\nCONTROLS: \n\nAction\t\t\tKey\nMove Left: \tA or Left Arrow Key\nMove
+    Right:  \tD or Right Arrow Key\nJump:\t        Space Bar\n\nYou will lose the
+    game if the Goblin falls off the platform or come in contact with the enemies."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -212,7 +212,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
