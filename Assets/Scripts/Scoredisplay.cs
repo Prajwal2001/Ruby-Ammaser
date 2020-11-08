@@ -21,6 +21,6 @@ public class Scoredisplay : MonoBehaviour
     {
         score += rubyval;
         fscore = score;
-        text.text = "X" + score.ToString();
+        text.text = "RUBY X " + score.ToString();
     }
 }

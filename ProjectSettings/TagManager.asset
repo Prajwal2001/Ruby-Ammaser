@@ -10,6 +10,7 @@ TagManager:
   - door
   - Vdoor
   - ground
+  - groundT
   layers:
   - Default
   - TransparentFX
