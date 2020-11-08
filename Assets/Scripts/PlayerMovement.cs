@@ -17,7 +17,7 @@ public class PlayerMovement : MonoBehaviour
         if(Input.GetButtonDown("Jump") && isGrounded== true)
         {
             SFXscript.PlaySound("jumpsound");
-            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 9f), ForceMode2D.Impulse);
+            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 7f), ForceMode2D.Impulse);
         }
     }
     private void OnTriggerEnter2D(Collider2D other)
